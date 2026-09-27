@@ -65,6 +65,7 @@ android {
 }
 
 dependencies {
+  implementation(project(":shared"))
   // Compose BOM & UI
   implementation(platform(libs.androidx.compose.bom))
   implementation(libs.androidx.activity.compose)
